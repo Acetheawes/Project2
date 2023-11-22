@@ -1,14 +1,45 @@
-#banner{
+body{
+    background-color: #dad3c1;
+    font-family: sans-serif, Cambria;
+}
+.banner{
     align-items: center;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    color: darkslategray;
 }
-#content{
+.content{
     display: flex;
 }
-#content div{
-    padding: 5px;
-    color: bisque;
+.content div{
+    border: 2px solid black;
+    margin: 3.5px;
+    padding: 20px;
+    
 }
+.menu{
+}
+.main{
+}
+
+/* Responsive Web Design */
+
+[class*="col-"]{
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .col-tablet-3{width: 25%;}
+    .col-tablet-6{width:50%;}
+    .col-tablet-9{width:75%;}
+    .col-tablet-12{width:100%;}
+}
+
+@media only screen and (min-width: 768px){
+    .col-desktop-3{width: 25%;}
+    .col-desktop-6{width: 50%;}
+    .col-desktop-9{width: 75%;}
+    .col-desktop-12{width: 100%;}
+}
+
+
+
