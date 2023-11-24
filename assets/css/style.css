@@ -1,45 +1,51 @@
-body{
+body {
     background-color: #dad3c1;
     font-family: sans-serif, Cambria;
 }
-.banner{
+
+.banner {
     align-items: center;
     text-align: center;
     font-weight: bolder;
 }
-.content{
-    display: flex;
-}
-.content div{
+.content{display: float;}
+
+
+.content div {
     border: 2px solid black;
     margin: 3.5px;
     padding: 20px;
-    
 }
-.menu{
+
+.menu {
 }
-.main{
+
+.main {
+}
+
+.aside {
 }
 
 /* Responsive Web Design */
 
-[class*="col-"]{
+[class*="col-"] {
     width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
-    .col-tablet-3{width: 25%;}
-    .col-tablet-6{width:50%;}
-    .col-tablet-9{width:75%;}
-    .col-tablet-12{width:100%;}
+    .banner {width: 100%;}
+    .menu {width: 25%;}
+    .main {width: 75%;}
+    .aside {width: 100%;}
+    .footer {width: 100%;}
+    .content{display: flex;}
 }
 
-@media only screen and (min-width: 768px){
-    .col-desktop-3{width: 25%;}
-    .col-desktop-6{width: 50%;}
-    .col-desktop-9{width: 75%;}
-    .col-desktop-12{width: 100%;}
+@media only screen and (min-width: 768px) {
+    .banner {width: 100%;}
+    .menu {width: 25%;}
+    .main {width: 50%;}
+    .aside {width: 25%;}
+    .footer {width: 100%;}
+    .content{display: flex;}
 }
-
-
-
