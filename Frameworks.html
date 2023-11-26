@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Frameworks</title>
+</head>
+<body>
+    <div class="banner">
+        <h1>Frameworks</h1>
+    </div>    
+    <div class="content">
+        <div class="menu">
+            <h3>Site Map</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Frontend-Programming.html">Frontend Programming Languages</a></li>
+                <li><a href="Backend-Programming.html">Backend Programming Languages</a></li>
+                <li><a href="Frameworks.html">Frameworks</a></li>
+                <li><a href="References.html">References</a></li>
+            </ul>
+        </div>
+        <div class = "main">
+            Frameworks/Libraries are used for making web apps. Libraries come packed with prebuilt functionalities that make implementing certain features 
+            easier. For example, React and Angular allow for easier UI design with web Applications. Node.js and Nest.js are examples of libraries that are used
+            for backend. 
+
+            <h2>Angular</h2>
+            <p>
+                Angular is a powerful and widely-used framework that simplifies the development of dynamic and single-page web applications, 
+                revolutionizing the way we build and interact with web content
+
+                Key features
+                <ul>
+                    <li>Modularity</li>
+                    <li>Two way data Binding</li>
+                    <li>Dependency injection</li>
+                </ul>
+                To make an angular project, you need to install node js and the angular cli. then run <code>ng new myapp</code> 
+                and <code>code myapp</code> to open the angular app in Visual Studio Code
+            <h3>Angular Workspace:</h3>
+            In the Explorer section, you will see all the files of the Angular Project. <br>
+            <code>node_modules</code> contains all the libraries that are necessary to the angular project's functioning. 
+           <br> type <code>ng serve myapp</code> in the terminal to get a default angular app. 
+            
+            <br><br>
+            As a platform, Angular includes a component-based framework for building scalable web applications. 
+            Components are architectural building blocks encapsulating templates, data and behavior. 
+            This facilitates the creation of reusable and modular UI elements, streamlining development and enhancing maintainability. 
+            This video goes a little deeper on how angular works. 
+            <br>
+            <div class = "videodiv">
+                <iframe width="1170" height="658" src="https://www.youtube.com/embed/Ata9cSC2WpM" 
+                title="Angular in 100 Seconds" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen style="width: 1000px; height:600px;"></iframe>
+            </div>
+
+
+            <!-- React Section -->
+            <h2>React JS</h2>
+            <p>React is an open-source JavaScript library for building user interfaces or UI components. 
+                Developed and maintained by Facebook, React is widely used for creating dynamic and 
+                interactive web applications with a focus on a reusable and declarative approach to building UI components.
+            <br>To make a React app, make sure you have node.js installed, and type <code>create-react-app myapp</code></p><br>
+            This will create a new directory that contains your new react app.              
+            </p>
+            
+            <div class = "imgcontainer" style="display: flex">
+                <img src="assets/media/app.js.png" alt="" style="height:500%; width: 500%;">
+                <div>
+                    
+                    App.js is your main html page. It returns a javascript 
+                    function, which contains html componenets. <br>
+                    To make a test build of the app, type <code>npx start</code> in the terminal, with the react app as the working directory
+                </div>
+
+            </div>
+
+        </div>
+        <div class = "aside">
+            <div class = "screenshot">
+                <img src="assets/media/Angular-workspace.png" alt="Angular Workspace"><br>
+                <small>The angular Workspace</small>
+
+            </div>
+            <div class = "screenshot">
+                <img src="assets/media/react-workspace.png" alt="React Workspace">
+                <small>The react workspace</small>
+
+            </div>
+        </div>
+    </div>
+    <div class = "footer">
+        <h3>External resources:</h3>
+        <ul>
+            <li><a href="https://angular.io/">Angular.io</a></li>
+            <li><a href="https://react.dev/">React.dev</a></li>
+        </ul>
+
+    </div>
+</body>
+</html>

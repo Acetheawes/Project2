@@ -1,0 +1,86 @@
+body {
+    background-color: #eeeeee;
+    color: #111111;
+    font-family: sans-serif, Cambria;
+}
+
+.banner {
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    border: solid #111111;
+}
+.content{display: float;}
+.footer{
+    border: 2px solid #111111;
+    margin: 3.5px;
+    padding: 20px;
+}
+
+
+.content div {
+    border: 2px solid #111111;
+    margin: 3.5px;
+    padding: 20px;
+}
+.screenshot{
+    align-items: center; text-align: center; border: none;
+}
+.screenshot img{
+    height: 100%;
+    width: 100%;
+}
+/* 
+.menu {
+}
+
+.main {
+} */
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+}
+.imgcontainer{
+    align-items: center;
+    border: 0px;
+}
+.imgcontainer p{
+    text-align: center;
+    font-family: sans-serif, Cambria;
+}
+.image{
+    margin: 2px;
+    padding: 1%;
+}
+
+/* ********************* */
+/* Responsive Web Design */
+/* ********************* */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .banner {width: 100%;}
+    .menu {width: 20%;}
+    .main {width: 80%;}
+    .aside {width: 100%;}
+    .footer {width: 100%;}
+    .content{display: flex;}
+}
+
+@media only screen and (min-width: 768px) {
+    .banner {width: 100%;}
+    .menu {width: 20%;}
+    .main {width: 65%;}
+    .aside {width: 15%;}
+    .footer {width: 100%;}
+    .content{display: flex;}
+}
