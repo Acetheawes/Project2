@@ -62,6 +62,14 @@ body {
     margin: 2px;
     padding: 1%;
 }
+.videocontainer{
+    position: relative;
+            overflow: hidden;
+            padding-top: 56.25%;
+}
+.videocontainer iframe{
+    /* position: absolute; */
+}
 
 /* ********************* */
 /* Responsive Web Design */
@@ -78,6 +86,9 @@ body {
     .aside {width: 100%;}
     .footer {width: 100%;}
     .content{display: flex;}
+    .videocontainer iframe {
+        width: 60%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -87,4 +98,7 @@ body {
     .aside {width: 15%;}
     .footer {width: 100%;}
     .content{display: flex;}
+    .videocontainer iframe {
+        width: 100%;
+    }
 }
